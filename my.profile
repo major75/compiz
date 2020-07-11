@@ -59,13 +59,12 @@ s0_cross_line_color = #1800ffff
 [ring]
 s0_next_key = <Alt>Tab
 s0_prev_key = <Shift><Alt>Tab
-s0_speed = 3,000000
+s0_speed = 2,000000
 s0_timestep = 0,100000
 s0_darken_back = false
 s0_select_with_mouse = true
 s0_thumb_width = 640
 s0_thumb_height = 480
-s0_window_title = false
 s0_title_font_color = #e42b2bff
 
 [thumbnail]
@@ -78,9 +77,11 @@ s0_ground_color1 = #b3b3b3cc
 s0_ground_color2 = #b3b3b300
 
 [animation]
-s0_open_matches = ((type=Normal | Unknown) | name=sun-awt-X11-XFramePeer | name=sun-awt-X11-XDialogPeer) & !(role=toolTipTip | role=qtooltip_label) & !(type=Normal & override_redirect=1) & !(name=gnome-screensaver);((type=Menu | PopupMenu | DropdownMenu | Combo | Dialog | ModalDialog | Normal) & !(class=\.exe$));(type=Tooltip | Notification | Utility) & !(name=compiz) & !(title=notify-osd);
-s0_close_matches = ((type=Normal | Unknown) | name=sun-awt-X11-XFramePeer | name=sun-awt-X11-XDialogPeer) & !(role=toolTipTip | role=qtooltip_label) & !(type=Normal & override_redirect=1) & !(name=gnome-screensaver) & !(name=gnome-screenshot);((type=Menu | PopupMenu | DropdownMenu | Combo | Dialog | ModalDialog | Normal) & !(class=\.exe$));(type=Tooltip | Notification | Utility) & !(name=compiz) & !(title=notify-osd);
-s0_unminimize_effects = animation:Glide 2;
+s0_open_effects = animation:Fade;animation:Fade;animation:Fade;
+s0_close_effects = animation:Fade;animation:Fade;animation:Fade;
+s0_minimize_effects = animation:Fade;
+s0_unminimize_effects = animation:Fade;
+s0_unminimize_durations = 220;
 
 [showmouse]
 s0_color = #ffdf3fff
