@@ -72,13 +72,14 @@ s0_thumb_color = #0000007f
 s0_font_background_color = #0000007f
 
 [expo]
-s0_expo_edge = TopRight
+s0_expo_edge = TopLeft
 s0_ground_color1 = #b3b3b3cc
 s0_ground_color2 = #b3b3b300
 
 [animation]
 s0_open_effects = animation:Fade;animation:Fade;animation:Fade;
 s0_close_effects = animation:Fade;animation:Fade;animation:Fade;
+s0_close_durations = 220;80;50;
 s0_minimize_effects = animation:Fade;
 s0_unminimize_effects = animation:Fade;
 s0_unminimize_durations = 220;
